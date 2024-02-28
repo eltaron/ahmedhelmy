@@ -9,8 +9,8 @@
 @endpush
 @section('content')
 <main>
-    <div class="cover" style="background-image: url('{{asset('web_files')}}/header/h4.jpg');">
-        <div class="bg">
+    <div class="headerBG text-center p-5 d-flex align-items-center justigy-content-center");">
+        <div class="bg w-100">
             <h2>{{$category->category_name}}</h2>
         </div>
     </div>

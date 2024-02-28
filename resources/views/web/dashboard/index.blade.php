@@ -4,9 +4,9 @@
 @endpush
 @section('content')
 <main>
-    <div class="cover text-center p-5" style="background-image: url('{{asset('web_files')}}/header/h4.jpg');">
-        <div class="bg">
-            <h2>الرئيسية</h2>
+    <div class="headerBG text-center p-5 d-flex align-items-center justigy-content-center">
+        <div class="bg w-100">
+            <h2>الرئــيــســيــة</h2>
         </div>
     </div>
     <section id="main">
@@ -146,9 +146,9 @@
                             <td> {{$fullExam->time_ago}}</td>
                             <td>
                                 @if ($fullExam->type == 1)
-                                    <label class="bg-primary text-light" style="font-size: 15px;">على المنصة</label>
+                                    <label >على المنصة</label>
                                 @else
-                                    <label class="bg-success text-light" style="font-size: 15px;">امتحان برابط</label>
+                                    <label>امتحان برابط</label>
                                 @endif
                             </td>
                             <td>

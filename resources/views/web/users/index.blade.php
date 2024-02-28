@@ -4,8 +4,8 @@
 @endpush
 @section('content')
 <main>
-    <div class="cover" style="background-image: url('{{asset('web_files')}}/header/h4.jpg');">
-        <div class="bg">
+    <div class="headerBG text-center p-5 d-flex align-items-center justigy-content-center">
+        <div class="bg w-100">
             <h2>الحساب الشخصي</h2>
         </div>
     </div>
@@ -20,8 +20,8 @@
           >
             <div class="main">
               <img
-                class="p-2"
-                src="{{Auth::user()->avatar ? Auth::user()->avatar : asset('web_files/images/icons/online-learning.png')}}"
+                class=""
+                src="{{Auth::user()->avatar ? Auth::user()->avatar : asset('web_files/images/avatar.jpg')}}"
                 alt=""
                 width="200"
                 height="200"

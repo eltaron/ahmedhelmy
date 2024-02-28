@@ -178,7 +178,7 @@
                         <tbody>
                             @forelse ($messages as $item)
                             <tr>
-                                <td>{{$item->user()? $item->user()->name : ''}}</td>
+                                <td>{{$item->user? $item->user->name : ''}}</td>
                                 <td>{{$item->message}}</td>
                                 <td>{{$item->time_ago}}</td>
                             </tr>
