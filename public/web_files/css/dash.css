@@ -1,0 +1,136 @@
+#main .main_bg {
+    background-color: var(--first-color);
+    padding: 20px 0;
+    color: var(--sec-color);
+}
+#main .main_bg h2 {
+    font-size: 2.1em;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+#main .main_bg p,
+.card p {
+    color: #421716;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.nav-link {
+    color: #f5f2ea;
+    font-size: 20px;
+    border-radius: 0 !important;
+    margin: 8px 0;
+    font-weight: 700;
+    padding: 12px;
+    transition: 0.5s ease-in-out;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link,
+.nav-pills .nav-link:hover {
+    background-color: var(--sec-color);
+    color: #631d1e;
+}
+.card-img-top {
+    height: 350px;
+}
+@media (max-width: 768px) {
+    .card-img-top {
+        height: 200px;
+    }
+    .main-title {
+        padding: 15px 10px;
+        font-size: 20px;
+    }
+}
+.card h4 {
+    color: var(--first-color);
+    font-size: 26px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.card a {
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 14px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.table > thead {
+    background-color: var(--first-color);
+    color: #fff;
+}
+.table td {
+    font-weight: 800;
+}
+audio {
+    width: 100%;
+}
+.card {
+    background-color: var(--sec-color);
+    border: none;
+    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+#main .card .card-title {
+    color: var(--first-color);
+    font-weight: bold;
+    font-size: 28px;
+    margin: 15px 0 20px;
+}
+#main .card .card-title i {
+    display: block;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    color: var(--first-color);
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+input,
+textarea {
+    height: 60px;
+    margin: 0 0 35px 0;
+    background-color: var(--sec-color);
+    color: #fff;
+    width: 100%;
+    padding-right: 15px;
+    border: 0;
+    outline: 0;
+}
+input::placeholder,
+textarea::placeholder {
+    color: #fff;
+}
+textarea {
+    height: auto;
+}
+.original-button {
+    padding: 10px 15px;
+    margin: auto;
+    border: none;
+    border-radius: 0 !important;
+    background-color: #631d1e;
+    color: #fff;
+    /* box-shadow: 7px 4px 8px 0px #00000070; */
+    transition: transform 0.5s, opacity 0.5s;
+    font-size: 19px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.original-button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.tab-content {
+    padding-bottom: 140px !important;
+}
+
+@media (max-width: 768px) {
+    #footer {
+        margin-top: 37px !important;
+    }
+}

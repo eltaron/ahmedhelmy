@@ -1,0 +1,35 @@
+#main .container .row {
+    margin: 36px;
+}
+#main .container .row .col-md-3 img {
+    width: 100%;
+    box-shadow: 0px 2px 20px 5px rgb(198 221 227);
+    border-radius: 5px;
+    height: 100%;
+}
+#main {
+    margin-bottom: 140px !important;
+}
+#main .container .row .col-md-9 {
+    background-color: var(--sec-color);
+    border-radius: 10px;
+    padding: 15px;
+}
+#main .container .row .col-md-9 h2 {
+    font-weight: bold;
+    color: var(--first-color);
+}
+#main .container .row .col-md-9 a {
+    padding: 10px 15px;
+    margin: auto;
+    border: none;
+    background-color: var(--first-color);
+    color: rgb(237, 229, 208);
+    font-size: 19px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+#main .container .row .col-md-9 a:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}

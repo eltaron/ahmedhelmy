@@ -1,0 +1,109 @@
+:root {
+    --margin: 1.3rem;
+    --maincolor: #7e603b;
+    --textcolor: #000;
+    --basecolor: #fff;
+}
+* {
+    font-family: "Cairo", sans-serif;
+}
+body {
+    direction: rtl;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--maincolor) !important;
+    flex-wrap: wrap;
+}
+.row {
+    --bs-gutter-x: 0rem !important;
+    width: 80%;
+    border-radius: 2rem;
+    background-color: var(--basecolor);
+}
+.row .col-md-6 img {
+    width: 100%;
+    border-radius: 2rem;
+    background-color: #101010;
+    height: 89vh;
+}
+@media (max-width: 768px) {
+    .row .col-md-6 img {
+        height: auto;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: 30px;
+    }
+}
+
+.row .col-md-6 {
+    display: flex;
+}
+.row .col-md-6 .input {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.row .col-md-6 .input h1 {
+    font-weight: bolder;
+    margin-bottom: var(--margin);
+}
+.modal-header .btn-close {
+    padding: 0rem 0rem !important;
+    margin: 0rem 0rem 0rem !important;
+}
+.row .col-md-6 h2.btn-primary {
+    color: var(--textcolor);
+    background-color: var(--basecolor);
+    border-color: var(--basecolor);
+}
+.row .col-md-6 #exampleModal button.btn-primary {
+    color: var(--basecolor);
+    background-color: var(--maincolor);
+    border-color: var(--maincolor);
+    box-shadow: 0px 0px 3px 2px #fff !important;
+}
+.row .col-md-6 #exampleModal .modal-header .btn-close {
+    box-shadow: 0px 0px 3px 2px #fff !important;
+}
+.form-control {
+    margin-bottom: 1rem;
+    transition: none !important;
+    box-shadow: 0px 0px 3px 2px #fff !important;
+    height: 50px;
+    margin: 20px 0;
+}
+.form-control:focus {
+    box-shadow: 0px 0px 2px 2px #7e603b !important;
+    border: 0px solid #fff;
+    outline: #fff;
+}
+.row .col-md-6 h3 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+.row .col-md-6 a {
+    text-decoration: none;
+    color: var(--textcolor);
+}
+.row .col-md-6 .button a {
+    text-decoration: none;
+    color: var(--basecolor);
+}
+.row .col-md-6 h3:hover {
+    cursor: pointer;
+}
+.row .col-md-6 .button {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+    background-color: var(--maincolor);
+    border: 2px solid var(--maincolor);
+    padding: 15px;
+    font-size: 19px;
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+#Contactus .row form input {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+    height: 65px;
+    background-color: transparent;
+    color: var(--first-color);
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: var(--sec-color);
+}
+#Contactus .row form textarea {
+    border-radius: 3px;
+    background-color: transparent;
+    color: var(--first-color);
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding-right: 5px;
+    margin: 10px 0px;
+    outline: none;
+    border: none;
+    background-color: var(--sec-color);
+    padding-top: 20px;
+}
+#Contactus input::placeholder,
+#Contactus textarea::placeholder {
+    color: var(--first-color);
+}
+#Contactus .row button {
+    padding: 17px 30px;
+    margin: auto;
+    border: none;
+    background-color: var(--first-color);
+    color: rgb(237, 229, 208);
+    font-size: 23px;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+#Contactus .row button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
