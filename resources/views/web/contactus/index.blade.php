@@ -10,10 +10,12 @@
       <div class="contactForm col-12 col-md-7 p-lg-5 ">
         <div class="card text-center text-md-end">
           <h2>تـــواصــل معــنا</h2>
-          <form action="" class="row justify-content-center align-items-center flex-column g-3">
-            <input class="col-12" type="text" placeholder="اسم المستخدم">
-            <input class="col-12" type="number" placeholder="رقم التليفون">
-            <textarea class="col-12" type="textarea" cols="60" rows="6" placeholder="اترك رسالتك هنا ..."></textarea>
+          @include('web.includes.message')
+          <form action="{{url('addMessage')}}" class="row justify-content-center align-items-center flex-column g-3">
+            @csrf
+            <input class="col-12" type="text" name="username" placeholder="اسم المستخدم">
+            <input class="col-12" type="number" name="phone" placeholder="رقم التليفون">
+            <textarea class="col-12" type="textarea" name="message" cols="60" rows="6" placeholder="اترك رسالتك هنا ..."></textarea>
             <button class="contact-btn btn" type="submit">ارسال</button>
           </form>
         </div>

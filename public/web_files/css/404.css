@@ -1,5 +1,5 @@
 * {
-    font-family: "Lemonada", cursive;
+    font-family: "Cairo", sans-serif;
 }
 .container {
     text-align: center;
@@ -9,17 +9,11 @@
     justify-content: center;
 }
 body {
-    background: rgb(237, 229, 208);
-    background: linear-gradient(
-        90deg,
-        rgba(237, 229, 208, 1) 0%,
-        rgba(245, 242, 234, 1) 50%,
-        rgba(237, 229, 208, 1) 100%
-    );
-    color: #631d1e !important;
+    background: #071a36;
+    color: #eac696 !important;
 }
 * {
-    color: #631d1e;
+    color: #eac696;
 }
 body::-webkit-scrollbar,
 .mainbg::-webkit-scrollbar {
@@ -36,13 +30,13 @@ img {
     margin-bottom: 30px;
 }
 .container h1 {
-    font-family: "Lemonada", cursive;
+    font-family: "Cairo", sans-serif;
     font-size: 8em;
     color: #0881a3;
     margin: 15px;
 }
 .container p {
-    color: #631d1e;
+    color: #eac696;
     font-size: 30px;
     margin-bottom: 27px;
     font-weight: bold;
@@ -50,15 +44,16 @@ img {
 }
 .container a {
     text-decoration: none;
-    color: #fff;
-    font-family: sans-serif;
+    color: #071a36;
+    font-family: "Cairo", sans-serif;
     font-size: 30px;
 }
 .container button {
     padding: 10px 30px;
-    background-color: #631d1e;
+    background-color: #eac696;
     border: none;
     border-radius: 6px;
+    font-family: "Cairo", sans-serif;
 }
 .container button:hover {
     cursor: pointer;

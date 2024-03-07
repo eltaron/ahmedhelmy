@@ -1,6 +1,5 @@
 @include('web.includes.head')
 @include('web.includes.header')
-@include('web.includes.message')
 @yield('content')
 @include('web.includes.footer')
 @include('web.includes.scripts')

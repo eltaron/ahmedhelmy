@@ -35,13 +35,13 @@
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 class="text-uppercase fw-bold">تواصـــل معــنــــا</h6>
             <p>
-              <i class="fa-solid fa-location-crosshairs"></i> كفرالشيخ
+              <i class="fa-solid fa-location-crosshairs"></i>الكويت
             </p>
             <p>
-              <a href="mailto:" class="footer-links"><i class="fa-regular fa-envelope"></i> info@ahmedhelmy.net</a>
+              <a href="mailto:ahmedhelmy197724@gmail.com" class="footer-links"><i class="fa-regular fa-envelope"></i> ahmedhelmy197724@gmail.com</a>
             </p>
             <p dir="ltr">
-              <a class="footer-links" href="https://wa.me/01127698622">01127698622
+              <a class="footer-links" href="https://wa.me/0096551665262">0096551665262
                 <i class="fa-solid fa-mobile-screen-button ms-1"></i></a>
             </p>
           </div>
